@@ -1,3 +1,4 @@
 streamlit
 adafruit-io
 opencv-python-headless
+ultralytics
