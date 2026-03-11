@@ -2,3 +2,4 @@ streamlit
 adafruit-io
 opencv-python-headless
 ultralytics
+google-generativeai
