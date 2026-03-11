@@ -1,3 +1,0 @@
-streamlit
-adafruit-io
-opencv-python-headlesss
