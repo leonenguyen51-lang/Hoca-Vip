@@ -16,8 +16,8 @@ USER_ADMIN = "quan40"
 PASS_ADMIN = "123456"
 
 # 🔑 THÔNG TIN CLOUD ADAFRUIT (Dán chính xác từ ảnh của sếp)
-AIO_USERNAME = "MinhQuan1904"
-AIO_KEY = "aio_fAFp716DhauyxaTrHW1cQiO2z9Mb"
+ADAFRUIT_AIO_USERNAME = "MinhQuan1904"
+ADAFRUIT_AIO_KEY      = "aio_RenZ513QecYq33b6L5lYrC1XZco6"
 aio = Client(AIO_USERNAME, AIO_KEY)
 
 # 🔑 CÁC CHÌA KHÓA KHÁC (Sếp nhớ điền đủ để báo động chạy)
