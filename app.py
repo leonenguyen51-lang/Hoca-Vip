@@ -27,7 +27,7 @@ API_KEY_GEMINI = "AIzaSyCLtT-374kbMkC7x85qiqiV0F2QoQrSDQg"
 
 # Khởi tạo kết nối Cloud
 try:
-    aio = Client(ADAFRUIT_IO_USERNAME, ADAFRUIT_IO_KEY)
+    aio = Client(ADAFRUIT_AIO_USERNAME, ADAFRUIT_AIO_KEY)
     genai.configure(api_key=API_KEY_GEMINI)
     model_bacsi = genai.GenerativeModel('gemini-2.5-flash')
 except Exception as e:
