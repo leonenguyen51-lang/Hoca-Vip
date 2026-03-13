@@ -18,7 +18,7 @@ PASS_ADMIN = "123456"
 # 🔑 THÔNG TIN CLOUD ADAFRUIT (Dán chính xác từ ảnh của sếp)
 ADAFRUIT_IO_USERNAME = "MinhQuan1904"
 ADAFRUIT_IO_KEY = "aio_RenZ513QecYq33b6L5lYrC1XZco6"
-aio = Client(ADAFRUIT_IO_USERNAME = ADAFRUIT_IO_KEY)
+aio = Client(username=ADAFRUIT_IO_USERNAME, key=ADAFRUIT_IO_KEY)
 
 # 🔑 CÁC CHÌA KHÓA KHÁC (Sếp nhớ điền đủ để báo động chạy)
 BOT_TOKEN = "8724967452:AAHCCb2kqQwvnLduz_uuH0fb5N3PFo6D3ec"
